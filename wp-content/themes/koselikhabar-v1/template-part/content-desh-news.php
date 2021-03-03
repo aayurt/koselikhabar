@@ -13,7 +13,7 @@
                             'order'   => 'ASC',
                             //'post_type' =>  'desh_news',
                             'exclude'=>1, //for excluding uncategorized
-                            'parent'         => 9,
+                            'parent'         => 37,
                         );
 
                         $cats = get_categories($args);

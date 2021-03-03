@@ -163,7 +163,7 @@ function awepop_popularity_list($post_count = 10)
             }
         </style>
         <div class="row padding_x_1rem">
-            <div class="col-md-2 trending_num">
+            <div class="col-md-2 trending_num flex alignItemCenter">
                 <span class="fontSize_34px"><?php echo $i ?></span>
             </div>
             <div class="col-md-10 col-sm-12 trending_container">

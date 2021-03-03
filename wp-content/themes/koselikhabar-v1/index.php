@@ -6,7 +6,7 @@ get_header();
     <section class="below-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 col-sm-12">
+                <div class="col-md-12 col-sm-12 adtopFix" >
                     <div class="below-header-ad">
                         <?php the_ad(72); ?>
                     </div>

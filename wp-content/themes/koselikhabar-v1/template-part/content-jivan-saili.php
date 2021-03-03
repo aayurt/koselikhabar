@@ -18,7 +18,7 @@ if(have_posts()):
             <div class="col-md-8">
                 <div class="row theme_color">
                     <div class="col-12">
-                        Jiban Saili/ Sahitya
+                    जिबन सैली/ साहित्य
                     </div>
                 </div>
                 <?php
