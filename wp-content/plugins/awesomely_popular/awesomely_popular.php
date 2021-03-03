@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Awesomely Popular
-Plugin URI: http://binayas.com.np
+Plugin URI: http://aayushshrestha.com
 Description: A plugin that records post views and contains functions to easily list posts b popularity
 Version: 1.0
-Author: Binaya Shrestha
+Author: AAA
 License: GPL2
 */
 

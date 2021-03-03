@@ -20,6 +20,8 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 if($_SERVER['HTTP_HOST']=="localhost" || $_SERVER['HTTP_HOST']=="127.0.0.1") {
+    define( 'DB_HOST', '127.0.0.1' );
+
     /** The name of the database for WordPress */
     define('DB_NAME', 'koselikhabar');
 
@@ -30,17 +32,18 @@ if($_SERVER['HTTP_HOST']=="localhost" || $_SERVER['HTTP_HOST']=="127.0.0.1") {
     define('DB_PASSWORD', '');
 }
 else{
+    define( 'DB_HOST', '85.187.128.39' );
+
     /** The name of the database for WordPress */
-    define('DB_NAME', 'binayasc_ratosurya');
+    define('DB_NAME', 'koselikh_first');
 
     /** MySQL database username */
-    define('DB_USER', 'binayasc_ratosurya');
+    define('DB_USER', 'koselikh_aayurt');
 
     /** MySQL database password */
-    define('DB_PASSWORD', 'ywn31*eZUOe?');
+    define('DB_PASSWORD', 'aayurt123');
 }
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
