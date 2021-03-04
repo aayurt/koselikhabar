@@ -585,3 +585,15 @@ ul {
   width: 100%;
   height: auto;
 }
+.footerTitle {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 26px;
+}
+.footerContent {
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+}

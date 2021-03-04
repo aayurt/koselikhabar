@@ -30,8 +30,20 @@
                 </div>
                 <div class="col-md-3 col-sm-12">
                     <div class="company-info">
-                        <h4>Company Info</h4>
-                        <?php
+                        <!-- <h4>Company Info</h4> -->
+                        <div class="footerTitle">
+                        <span >कोसेली खबर </span>
+                            </div>
+                            <hr/>
+
+                        <div class="footerContent">
+                            <span>सम्पादक: गणेश ज्ञवाली</span>
+                        </div>
+                        <div class="footerContent">
+                             <span>संचालक: सुनाइल थापा</span>
+                        </div>
+                        
+                        <!-- <?php
                             wp_nav_menu(
                                 array(
                                     'theme_location' => 'footer-menu',
@@ -39,7 +51,7 @@
                                     'items_wrap' => '<ul ">%3$s</ul>',
                                 )
                             );
-                        ?>
+                        ?> -->
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12">
