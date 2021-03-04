@@ -22,9 +22,9 @@
                         </div>
                         <hr>
                         <ul>
-                            <li>Phone: <?php echo get_theme_mod('contact_no', '+123 456 7890'); ?> </li>
-                            <li>Fax: <?php echo get_theme_mod('fax_no', 'contact@company.com'); ?> </li>
-                            <li>Email: <a class="email" href="mailto:<?php echo get_theme_mod('contact_mail', 'contact@company.com'); ?>"></i> <?php echo get_theme_mod('contact_mail', 'contact@company.com'); ?></a> </li>
+                            <li>फोन: <?php echo get_theme_mod('contact_no', '+123 456 7890'); ?> </li>
+                            <!-- <li>Fax: <?php echo get_theme_mod('fax_no', 'contact@company.com'); ?> </li> -->
+                            <li>इमेल: <a class="email" href="mailto:<?php echo get_theme_mod('contact_mail', 'contact@company.com'); ?>"></i> <?php echo get_theme_mod('contact_mail', 'contact@company.com'); ?></a> </li>
                         </ul>
                     </div>
                 </div>
