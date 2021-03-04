@@ -373,7 +373,8 @@ ul {
 }
 
 .footer .bottom-footer {
-  background-color: #d53a41;
+  background: linear-gradient(45deg, #3494e6 30%, #ec6ead 90%);
+  opacity: 0.8;
   color: #fff;
 }
 
@@ -417,7 +418,8 @@ ul {
 }
 .footer .footer-contact-form .btn-default {
   color: #fff;
-  background-color: #d53a41;
+  background: #ec6ead;
+  opacity: 0.8;
   border: none;
   border-radius: 2px;
   display: block;
