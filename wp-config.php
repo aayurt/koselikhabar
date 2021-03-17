@@ -33,7 +33,7 @@ if($_SERVER['HTTP_HOST']=="localhost" || $_SERVER['HTTP_HOST']=="127.0.0.1") {
 }
 else{
     
-    define( 'DB_HOST', '85.187.128.39' );
+    define('DB_HOST', '85.187.128.39');
 
     /** The name of the database for WordPress */
     define('DB_NAME', 'koselikh_first');
