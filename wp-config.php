@@ -42,7 +42,7 @@ else{
     define('DB_USER', 'koselikh_aayurt');
 
     /** MySQL database password */
-    define('DB_PASSWORD', 'aayurt123');
+    define('DB_PASSWORD', 'aayurt@123');
 }
 /** MySQL hostname */
 
