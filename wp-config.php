@@ -32,6 +32,7 @@ if($_SERVER['HTTP_HOST']=="localhost" || $_SERVER['HTTP_HOST']=="127.0.0.1") {
     define('DB_PASSWORD', '');
 }
 else{
+    
     define( 'DB_HOST', '85.187.128.39' );
 
     /** The name of the database for WordPress */
