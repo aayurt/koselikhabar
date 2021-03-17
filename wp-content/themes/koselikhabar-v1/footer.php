@@ -3,8 +3,9 @@
 <footer class="footer">
     <section class="top-footer">
         <div class="container">
+        <h3>Pundit Media Pvt. Ltd</h3>
             <div class="row">
-                <div class="col-md-3 col-sm-12">
+                <div class="col-lg-3 col-xs-12">
                     <div class="footer-contact-info">
                         <div class="footer-logo">
                             <?php if (get_theme_mod('themeslug_logo')) : ?>
@@ -22,27 +23,41 @@
                         </div>
                         <hr>
                         <ul>
-                            <li>फोन: <?php echo get_theme_mod('contact_no', '+123 456 7890'); ?> </li>
+                          
+                            <li><h4>koselikhabar.com</h4></li>
+                            <li>Regd no: 2404/077/078</li>
+                            <!-- <li>फोन: <?php echo get_theme_mod('contact_no', '+123 456 7890'); ?> </li> -->
                             <!-- <li>Fax: <?php echo get_theme_mod('fax_no', 'contact@company.com'); ?> </li> -->
                             <li>इमेल: <a class="email" href="mailto:<?php echo get_theme_mod('contact_mail', 'contact@company.com'); ?>"></i> <?php echo get_theme_mod('contact_mail', 'contact@company.com'); ?></a> </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-12">
+                <div class="col-lg-3 col-xs-12">
                     <div class="company-info">
                         <!-- <h4>Company Info</h4> -->
                         <div class="footerTitle">
-                        <span >कोसेली खबर </span>
+                        <span>कोसेली खबर </span>
                             </div>
                             <hr/>
 
-                        <div class="footerContent">
-                            <span>सम्पादक: गणेश ज्ञवाली</span>
+                        <div class="footerRow">
+                            <span class="footerContent">अदक्ष्य / सम्पादक:</span>
+                            <span>गणेश ज्ञवाली</span>
                         </div>
-                        <div class="footerContent">
-                             <span>संचालक: सुनाइल थापा</span>
+                        <div class="footerRow">
+                             <span class="footerContent">संचालक:</span>
+                             <span>सुनाइल थापा</span>
+                        </div>
+                        <div class="footerRow">
+                             <span class="footerContent">सह निर्देशक:</span>
+                             <span>गणेश शाह</span>
+                        </div>
+                        <div class="footerRow">
+                             <span class="footerContent">बजार व्यवस्थापक / बजार निर्देशन:</span>
+                             <span>जित बहादुर मल्ल (राम)</span>
                         </div>
                         
+
                         <!-- <?php
                             wp_nav_menu(
                                 array(
@@ -54,7 +69,7 @@
                         ?> -->
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12">
+                <div class="col-lg-6 col-xs-12">
                     <div class="footer-contact-form">
                         <h4>Contact Us</h4>
                         <form role="form" method="post" class="contactForm">
