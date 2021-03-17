@@ -1,0 +1,28 @@
+/* xs */
+@media (min-width: 0px) {
+  .footer .footer-contact-form {
+    background: #eae8e8;
+    padding: 40px 40px 25px 30px;
+    margin-top: 0;
+  }
+}
+/* sm */
+@media (min-width: 320px) {
+}
+/* md */
+@media (min-width: 672px) {
+}
+/* lg */
+@media (min-width: 1056px) {
+  .footer .footer-contact-form {
+    background: #eae8e8;
+    padding: 40px 40px 25px 30px;
+    margin-top: -43px;
+  }
+}
+/* xlg */
+@media (min-width: 1312px) {
+}
+/* max */
+@media (min-width: 1584px) {
+}

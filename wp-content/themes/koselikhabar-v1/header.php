@@ -55,6 +55,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/mediaQuery.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/responsive.css">
     <?php wp_head();?>
 </head>
