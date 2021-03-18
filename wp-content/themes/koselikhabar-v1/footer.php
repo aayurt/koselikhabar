@@ -1,30 +1,24 @@
-
-
 <footer class="footer">
     <section class="top-footer">
         <div class="container">
-        <h3>पण्डित मिडिया प्रा. लि.</h3>
+            <h3>पण्डित मिडिया प्रा. लि.</h3>
             <div class="row">
                 <div class="col-lg-3 col-xs-12">
                     <div class="footer-contact-info">
                         <div class="footer-logo">
                             <?php if (get_theme_mod('themeslug_logo')) : ?>
-                                <a class="hed-logo" href="<?php echo esc_url(home_url('/')); ?>"
-                                   title='<?php echo esc_attr(get_bloginfo('name', 'display')); ?>' rel='home'><img
-                                            src="<?php echo esc_url(get_theme_mod('themeslug_logo')); ?>"
-                                            alt="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"
-                                            class="img-responsive"></a>
+                                <a class="hed-logo" href="<?php echo esc_url(home_url('/')); ?>" title='<?php echo esc_attr(get_bloginfo('name', 'display')); ?>' rel='home'><img src="<?php echo esc_url(get_theme_mod('themeslug_logo')); ?>" alt="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" class="img-responsive"></a>
 
                             <?php else : ?>
-                                <a class="hed-logo" href="<?php echo esc_url(home_url('/')); ?>"
-                                   title='<?php echo esc_attr(get_bloginfo('name', 'display')); ?>'
-                                   rel='home'><?php echo esc_attr(get_bloginfo('name', 'display')); ?></a>
+                                <a class="hed-logo" href="<?php echo esc_url(home_url('/')); ?>" title='<?php echo esc_attr(get_bloginfo('name', 'display')); ?>' rel='home'><?php echo esc_attr(get_bloginfo('name', 'display')); ?></a>
                             <?php endif; ?>
                         </div>
                         <hr>
                         <ul>
-                          
-                            <li><h4>koselikhabar.com</h4></li>
+
+                            <li>
+                                <h4>koselikhabar.com</h4>
+                            </li>
                             <li>सुचनाविभाग दर्ता नं: २४०४/०७७/०७८ </li>
                             <!-- <li>फोन: <?php echo get_theme_mod('contact_no', '+123 456 7890'); ?> </li> -->
                             <!-- <li>Fax: <?php echo get_theme_mod('fax_no', 'contact@company.com'); ?> </li> -->
@@ -36,37 +30,37 @@
                     <div class="company-info">
                         <!-- <h4>Company Info</h4> -->
                         <div class="footerTitle">
-                        <span>कोसेली खबर </span>
-                            </div>
-                            <hr/>
+                            <span>कोसेली खबर </span>
+                        </div>
+                        <hr />
 
                         <div class="footerRow">
-                            <span >अध्यक्ष/सम्पादक:</span>
+                            <span>अध्यक्ष/सम्पादक:</span>
                             <span class="footerContent">गणेश ज्ञवाली</span>
                         </div>
                         <div class="footerRow">
-                             <span >निर्देशक:</span>
-                             <span class="footerContent">सुनाइल थापा</span>
+                            <span>निर्देशक:</span>
+                            <span class="footerContent">सुनाइल थापा</span>
                         </div>
                         <div class="footerRow">
-                             <span >सह-निर्देशक:</span>
-                             <span class="footerContent">गणेश शाह</span>
+                            <span>सह-निर्देशक:</span>
+                            <span class="footerContent">गणेश शाह</span>
                         </div>
                         <div class="footerRow">
-                             <span >बजार ब्याबस्थापक:</span>
-                             <span class="footerContent">जित बहादुर मल्ल(राम)</span>
+                            <span>बजार ब्याबस्थापक:</span>
+                            <span class="footerContent">जित बहादुर मल्ल(राम)</span>
                         </div>
-                        
+
 
                         <!-- <?php
-                            wp_nav_menu(
-                                array(
-                                    'theme_location' => 'footer-menu',
-                                    'container' => '',
-                                    'items_wrap' => '<ul ">%3$s</ul>',
-                                )
-                            );
-                        ?> -->
+                                wp_nav_menu(
+                                    array(
+                                        'theme_location' => 'footer-menu',
+                                        'container' => '',
+                                        'items_wrap' => '<ul ">%3$s</ul>',
+                                    )
+                                );
+                                ?> -->
                     </div>
                 </div>
                 <div class="col-lg-6 col-xs-12">
@@ -135,6 +129,7 @@
 <script src="<?php echo get_template_directory_uri() ?>/assets/js/jquery.min.js"></script>
 <script src="<?php echo get_template_directory_uri() ?>/assets/js/bootstrap.min.js"></script>
 <script src="<?php echo get_template_directory_uri() ?>/assets/js/main.js"></script>
-<?php wp_footer();?>
+<?php wp_footer(); ?>
 </body>
+
 </html>
