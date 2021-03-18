@@ -3,7 +3,7 @@
 <footer class="footer">
     <section class="top-footer">
         <div class="container">
-        <h3>Pundit Media Pvt. Ltd</h3>
+        <h3>पण्डित मिडिया प्रा. लि.</h3>
             <div class="row">
                 <div class="col-lg-3 col-xs-12">
                     <div class="footer-contact-info">
@@ -25,7 +25,7 @@
                         <ul>
                           
                             <li><h4>koselikhabar.com</h4></li>
-                            <li>Regd no: 2404/077/078</li>
+                            <li>सुचनाविभाग दर्ता नं: २४०४/०७७/०७८ </li>
                             <!-- <li>फोन: <?php echo get_theme_mod('contact_no', '+123 456 7890'); ?> </li> -->
                             <!-- <li>Fax: <?php echo get_theme_mod('fax_no', 'contact@company.com'); ?> </li> -->
                             <li>इमेल: <a class="email" href="mailto:<?php echo get_theme_mod('contact_mail', 'contact@company.com'); ?>"></i> <?php echo get_theme_mod('contact_mail', 'contact@company.com'); ?></a> </li>
@@ -41,20 +41,20 @@
                             <hr/>
 
                         <div class="footerRow">
-                            <span class="footerContent">अदक्ष्य / सम्पादक:</span>
-                            <span>गणेश ज्ञवाली</span>
+                            <span >अध्यक्ष/सम्पादक:</span>
+                            <span class="footerContent">गणेश ज्ञवाली</span>
                         </div>
                         <div class="footerRow">
-                             <span class="footerContent">संचालक:</span>
-                             <span>सुनाइल थापा</span>
+                             <span >निर्देशक:</span>
+                             <span class="footerContent">सुनाइल थापा</span>
                         </div>
                         <div class="footerRow">
-                             <span class="footerContent">सह निर्देशक:</span>
-                             <span>गणेश शाह</span>
+                             <span >सह-निर्देशक:</span>
+                             <span class="footerContent">गणेश शाह</span>
                         </div>
                         <div class="footerRow">
-                             <span class="footerContent">बजार व्यवस्थापक / बजार निर्देशन:</span>
-                             <span>जित बहादुर मल्ल (राम)</span>
+                             <span >बजार ब्याबस्थापक:</span>
+                             <span class="footerContent">जित बहादुर मल्ल(राम)</span>
                         </div>
                         
 
