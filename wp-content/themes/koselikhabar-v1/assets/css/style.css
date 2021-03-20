@@ -1,5 +1,6 @@
 body {
   background-color: #fafafa;
+  font-family: "Mukta", sans-serif;
 }
 /* GLOBAL */
 .text-align-center {
@@ -624,26 +625,29 @@ ul {
 /* focus-header */
 
 .focus-header {
-  border: 2px solid #6633992e;
+  border: 1px solid transparent;
   padding: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   transition-timing-function: ease-in;
-  transition-duration: 0.25s;
+  transition-duration: 0.15s;
 }
 .focus-header:hover {
-  border: 2px solid rgba(15, 97, 253, 0.25098039215686274);
-  transition-timing-function: ease-out;
-  transition-duration: 0.4s;
+  border: 1px solid rgba(15, 97, 253, 0.25098039215686274);
+  transition-timing-function: ease-in;
+  transition-duration: 0.2s;
 }
 .focus-header a {
-  color: #4d4d4d;
-
+  color: #000000;
   /* rgba(0,0,0,.5) */
 }
+
 .focus-header a .focus-header-title {
   font-size: 64px;
   font-weight: 500;
+}
+.focus-header a:hover .focus-header-title {
+  color: #123875;
 }
 .focus-header a .focus-header-content {
   font-size: 24px;
