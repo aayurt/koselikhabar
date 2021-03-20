@@ -187,7 +187,43 @@ function entertainment()
     register_post_type('entertainment', $args);
 }
 //add_action('init', 'entertainment');
-
+/**********************************************************mainNews ************************************************************/
+// function mainNews()
+// {
+//     $labels = array(
+//         'name' => _x('MainNews', 'main_news'),
+//         'singular_name' => _x('MainNews', 'main_news'),
+//         'add_new' => _x('Add MainNew', 'TestDrive'),
+//         'add_new_item' => __('Add MainNew'),
+//         'edit_item' => __('Edit MainNew'),
+//         'new_item' => __('New  MainNew'),
+//         'all_items' => __('All  MainNews'),
+//         'view_item' => __('View MainNew'),
+//         'search_items' => __('Search MainNew'),
+//         'not_found' =>  __('No MainNews found'),
+//         'not_found_in_trash' => __('No  MainNews found in Trash'),
+//         'parent_item_colon' => '',
+//         'menu_name' => __('MainNews')
+//     );
+//     $args = array(
+//         'labels' => $labels,
+//         'public' => true,
+//         'publicly_queryable' => true,
+//         'show_ui' => true,
+//         'show_in_menu' => true,
+//         'query_var' => true,
+//         'rewrite' => array('slug' => _x('main-news', 'koseli-mainNews')),
+//         'capability_type' => 'post',
+//         'has_archive' => true,
+//         'hierarchical' => false,
+//         'menu_position' => 5,
+//         'register_meta_box_cb' => 'add_link_metaboxes',
+//         'supports' => array('title', 'thumbnail', 'editor', 'excerpt', 'comments', 'tags'),
+//         'taxonomies' => array('category', 'post_tag')
+//     );
+//     register_post_type('main-news', $args);
+// }
+/**********************************************************mainNews ************************************************************/
 
 /**********************************************************sports ************************************************************/
 function sports()

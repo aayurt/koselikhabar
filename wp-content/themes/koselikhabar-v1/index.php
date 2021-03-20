@@ -45,7 +45,12 @@ get_template_part('template-part/content-headline-news', get_post_format());
     </div>
 </section>
 <!-- Below Latest News Ad end   -->
+<!--Main News Start-->
 
+<?php
+get_template_part('template-part/content-main-news', get_post_format())
+?>
+<!--Main News End-->
 <!--Desh News Start-->
 
 <?php
