@@ -2,6 +2,9 @@ body {
   background-color: #fafafa;
   font-family: "Mukta", sans-serif;
 }
+img {
+  border-radius: 5px;
+}
 /* GLOBAL */
 .text-align-center {
   text-align: center;
@@ -248,10 +251,14 @@ ul {
 }
 .featured_image {
   padding: 4px;
-  border: 1px solid #cccccc;
+  transition-timing-function: ease-in;
+  transition-duration: 0.2s;
+  /* border: 1px solid #cccccc; */
 }
 .featured_image:hover {
-  transform: scale(1.025);
+  transform: scale(1.01);
+  transition-timing-function: ease-in;
+  transition-duration: 0.2s;
 }
 /*samachar start*/
 .main_news {
