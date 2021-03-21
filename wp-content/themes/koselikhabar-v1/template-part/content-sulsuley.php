@@ -88,7 +88,7 @@ if (have_posts()) :
 
                 </div>
                 <div class="col-md-4">
-                    <div class="ad-block">
+                    <div class="sep-block">
                         <?php the_ad_group(35); ?>
                     </div>
                 </div>

@@ -175,7 +175,7 @@ function discussionNews()
         'supports' => array('title', 'thumbnail', 'editor', 'excerpt', 'comments', 'tags'),
         'taxonomies' => array('category', 'post_tag')
     );
-    register_post_type('discussion-news', $args);
+    register_post_type('discussion_news', $args);
 }
 /**********************************************************Video************************************************************/
 function videoslist()

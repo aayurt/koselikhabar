@@ -27,7 +27,7 @@
                                 <div class="row ">
                                     <div class="col-5">
                                         <div class="featured_image">
-                                            <img src="https://picsum.photos/200/150" alt="adfs"/>
+                                            <img src="https://picsum.photos/200/150" alt="adfs" />
                                         </div>
                                     </div>
                                     <div class="col-7">
@@ -48,7 +48,7 @@
                                 <div class="row ">
                                     <div class="col-5">
                                         <div class="featured_image">
-                                            <img src="https://picsum.photos/200/150" alt="adfs"/>
+                                            <img src="https://picsum.photos/200/150" alt="adfs" />
                                         </div>
                                     </div>
                                     <div class="col-7">
@@ -69,7 +69,7 @@
                                 <div class="row ">
                                     <div class="col-5">
                                         <div class="featured_image">
-                                            <img src="https://picsum.photos/200/150" alt="adfs"/>
+                                            <img src="https://picsum.photos/200/150" alt="adfs" />
                                         </div>
                                     </div>
                                     <div class="col-7">
@@ -90,7 +90,7 @@
                                 <div class="row ">
                                     <div class="col-5">
                                         <div class="featured_image">
-                                            <img src="https://picsum.photos/200/150" alt="adfs"/>
+                                            <img src="https://picsum.photos/200/150" alt="adfs" />
                                         </div>
                                     </div>
                                     <div class="col-7">
@@ -114,16 +114,16 @@
             </div>
 
             <div class="col-md-4 col-sm-12">
-                <div class="ad-block">
+                <div class="sep-block">
                     <ul>
                         <li>
-                            <img src="https://picsum.photos/200/200" alt="adfs"/>
+                            <img src="https://picsum.photos/200/200" alt="adfs" />
                         </li>
                         <li>
-                            <img src="https://picsum.photos/200/200" alt="adfs"/>
+                            <img src="https://picsum.photos/200/200" alt="adfs" />
                         </li>
                         <li>
-                            <img src="https://picsum.photos/200/200" alt="adfs"/>
+                            <img src="https://picsum.photos/200/200" alt="adfs" />
                         </li>
                     </ul>
                 </div>
