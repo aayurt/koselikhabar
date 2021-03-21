@@ -121,7 +121,7 @@ ul {
 .below-header .below-header-ad,
 .below-latest-news .below-latest-news-ad,
 .below-desh-news .below-desh-news-ad,
-.below-samachar .below-samachar-ad {
+.below-samachar .below-samachar-ad,news-adverisement {
   padding: 2px;
   border: 1px solid #cccccc;
 }
@@ -129,7 +129,8 @@ ul {
 .below-header .below-header-ad img,
 .below-latest-news .below-latest-news-ad img,
 .below-desh-news .below-desh-news-ad img,
-.below-samachar .below-samachar-ad img {
+.below-samachar .below-samachar-ad img,
+.news-adverisement .news-adverisement-ad img {
   width: 100%;
 }
 

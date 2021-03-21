@@ -68,10 +68,20 @@ if ($tags->have_posts()) :
                 </div>
 
             </div>
-            <?php the_ad(408); ?>
+
         </div>
     </section>
-
+    <section class="news-adverisement">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="news-adverisement-ad">
+                        <?php the_ad(408); ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 <?php
 endif;
 ?>
