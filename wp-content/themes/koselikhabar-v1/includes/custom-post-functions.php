@@ -143,7 +143,7 @@ function samachar()
 //     register_post_type('samachar', $args);
 // }
 /**********************************************************	headline-news************************************************************/
-function discussionNews()
+function discussionnews()
 {
     $labels = array(
         'name' => _x('discussion', 'koseli_discussion'),
@@ -167,7 +167,7 @@ function discussionNews()
         'show_ui' => true,
         'show_in_menu' => true,
         'query_var' => true,
-        'rewrite' => array('slug' => _x('discussion-news', 'koseli-discussion')),
+        'rewrite' => array('slug' => _x('discussionnews', 'koseli-discussion')),
         'capability_type' => 'post',
         'has_archive' => true,
         'hierarchical' => false,
@@ -175,7 +175,7 @@ function discussionNews()
         'supports' => array('title', 'thumbnail', 'editor', 'excerpt', 'comments', 'tags'),
         'taxonomies' => array('category', 'post_tag')
     );
-    register_post_type('discussionNews', $args);
+    register_post_type('discussionnews', $args);
 }
 /**********************************************************Video************************************************************/
 function videoslist()
