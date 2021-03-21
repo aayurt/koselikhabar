@@ -102,7 +102,7 @@ if (have_posts()) :
             <div class="row">
                 <div class="col-md-12">
                     <div class="below-desh-news-ad">
-                        <?php the_ad(74); ?>
+                        <?php the_ad(153); ?>
                     </div>
                 </div>
             </div>
