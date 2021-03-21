@@ -81,7 +81,7 @@
                     </div>
                     <div class="offset-md-1 col-md-8">
                         <div class="header-ad">
-                            <?php the_ad(69); ?>
+                            <?php the_ad(407); ?>
 
                         </div>
                     </div>
