@@ -67,11 +67,6 @@ ul {
   color: #8c8888;
 }
 
-.header .header-menu {
-  background: linear-gradient(45deg, #3494e6 30%, #ec6ead 90%);
-  opacity: 0.8;
-}
-
 .header .header-menu .current-menu-item a {
   background: #3494e6;
 }

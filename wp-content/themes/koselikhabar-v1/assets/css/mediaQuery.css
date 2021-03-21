@@ -5,12 +5,18 @@
     padding: 40px 40px 25px 30px;
     margin-top: 0;
   }
+  .header .header-menu {
+    background: none;
+  }
 }
 /* sm */
 @media (min-width: 320px) {
 }
 /* md */
 @media (min-width: 672px) {
+  .header .header-menu {
+    background: transparent;
+  }
 }
 /* lg */
 @media (min-width: 1056px) {
