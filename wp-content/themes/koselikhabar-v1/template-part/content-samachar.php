@@ -93,7 +93,7 @@ if (have_posts()) :
                 global $wp_query;
                 $v = 1;
                 $discussionnews = array(
-                    'post_type' =>  'discussionnews',
+                    'post_type' =>  'samachar',
                     'post_per_page' =>  4,
                     'order' =>  'desc',
                 );
