@@ -672,6 +672,16 @@ news-adverisement {
   font-size: 20px;
   color: #000;
 }
-.rajniti-news .rajniti-news-image {
+.rajniti-news .rajniti-news-image,
+.samachar-news .samachar-news-image {
   padding-right: 0.75rem;
+}
+.samachar-news-image img {
+  min-width: 120px;
+  width: 120px;
+  height: 70px;
+}
+.samachar-news a {
+  font-size: 16px;
+  color: #000;
 }

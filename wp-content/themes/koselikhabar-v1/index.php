@@ -63,7 +63,9 @@ get_template_part('template-part/content-politics-news', get_post_format())
 get_template_part('template-part/content-desh-news', get_post_format())
 ?>
 <!--Desh News End-->
-
+<?php
+get_template_part('template-part/content-samachar', get_post_format())
+?>
 <!--Samachar starts-->
 <?php
 get_template_part('template-part/content-jivan-saili', get_post_format())
