@@ -665,3 +665,13 @@ news-adverisement {
   padding-top: 1rem;
 }
 /* end-focus-header */
+.rajniti-news {
+  align-items: center;
+}
+.rajniti-news a {
+  font-size: 20px;
+  color: #000;
+}
+.rajniti-news .rajniti-news-image {
+  padding-right: 0.75rem;
+}

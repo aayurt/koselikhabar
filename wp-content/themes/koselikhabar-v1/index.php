@@ -56,6 +56,10 @@ get_template_part('template-part/content-main-news', get_post_format())
 <!--Desh News Start-->
 
 <?php
+get_template_part('template-part/content-politics-news', get_post_format())
+?>
+
+<?php
 get_template_part('template-part/content-desh-news', get_post_format())
 ?>
 <!--Desh News End-->

@@ -1,6 +1,7 @@
 <?php
 global $wp_query;
 $v = 1;
+$a = 1;
 $MainNews = array(
     //'post_type' =>  'samachar',
     'post_per_page' =>  4,
@@ -71,11 +72,10 @@ if (have_posts()) :
                         </div>
                         <div class="col-sm-6">
                             <div class="row">
-
                                 <?php
                                 while (have_posts()) : the_post(); ?>
                                     <?php
-                                    if ($v > 1) {
+                                    if ($a > 1) {
                                     ?>
 
                                         <div class="col-sm-6">
@@ -96,7 +96,7 @@ if (have_posts()) :
                                     <?php }
                                     ?>
                                 <?php
-                                    $v++;
+                                    $a++;
                                 endwhile;
                                 ?>
                             </div>
