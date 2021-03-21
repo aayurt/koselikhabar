@@ -92,7 +92,7 @@ if (have_posts()) :
                 <?php
                 $v = 1;
                 $discussionnews = array(
-                    'post_type' =>  'discussionnews',
+                    'post_type' =>  'discussion-news',
                     'post_per_page' =>  4,
                     'order' =>  'desc',
                 );
