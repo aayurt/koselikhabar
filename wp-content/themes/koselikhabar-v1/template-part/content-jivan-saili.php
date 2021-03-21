@@ -75,9 +75,7 @@ if (have_posts()) :
                                 </div>
                             </div>
                         <?php }
-                        if (($v == 4 || $v == $count) && ($count > 1)) {
-                            echo '</div>';
-                        }
+
                         ?>
 
                     <?php
