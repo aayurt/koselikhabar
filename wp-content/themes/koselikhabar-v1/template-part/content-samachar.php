@@ -90,10 +90,9 @@ if (have_posts()) :
             ?>
             <div class="col-md-3">
                 <?php
-                global $wp_query;
                 $v = 1;
                 $discussionnews = array(
-                    'post_type' =>  'samachar',
+                    'post_type' =>  'discussionnews',
                     'post_per_page' =>  4,
                     'order' =>  'desc',
                 );
