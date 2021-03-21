@@ -60,21 +60,6 @@ get_template_part('template-part/content-desh-news', get_post_format())
 ?>
 <!--Desh News End-->
 
-
-<!-- Below samachar ad starts  -->
-<section class="below-samachar">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="below-samachar-ad">
-                    <?php the_ad(74); ?>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Below samachar Ad end   -->
-
 <!--Samachar starts-->
 <?php
 get_template_part('template-part/content-jivan-saili', get_post_format())
