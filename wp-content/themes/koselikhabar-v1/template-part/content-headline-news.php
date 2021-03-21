@@ -1,12 +1,16 @@
 <?php
-$post_type = array(
-    'headline-news'
-);
+
 $bannerNews = array(
-    'posts_per_page' => 4,
-    'tag' => $post_type,
+    //'post_type' =>  'entertainment',
+    'post_per_page' =>  4,
     'order' =>  'desc',
+    'category_name' => 'headline-news',
 );
+// $bannerNews = array(
+//     'posts_per_page' => 4,
+//     'tag' => $post_type,
+//     'order' =>  'desc',
+// );
 // query_posts($bannerNews);
 $tags = new WP_Query($bannerNews);
 // single_tag_title('headline-news', true);

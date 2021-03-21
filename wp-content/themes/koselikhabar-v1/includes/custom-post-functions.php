@@ -72,6 +72,41 @@ function samachar()
     );
     register_post_type('samachar', $args);
 }
+/**********************************************************Headline news (हेडलाइन्स समाचार)**************************************************************************/
+// function headlineNews()
+// {
+//     $labels = array(
+//         'name' => _x('HeadlineNew', 'koseli_HeadlineNew'),
+//         'singular_name' => _x('HeadlineNew', 'koseli_HeadlineNew'),
+//         'add_new' => _x('Add HeadlineNew', 'HeadlineNew'),
+//         'add_new_item' => __('Add New HeadlineNew'),
+//         'edit_item' => __('Edit HeadlineNew'),
+//         'new_item' => __('New HeadlineNew'),
+//         'all_items' => __('All HeadlineNews'),
+//         'view_item' => __('View HeadlineNew'),
+//         'search_items' => __('Search HeadlineNew'),
+//         'not_found' =>  __('No HeadlineNews found'),
+//         'not_found_in_trash' => __('No HeadlineNews found in Trash'),
+//         'parent_item_colon' => '',
+//         'menu_name' => __('HeadlineNew')
+//     );
+//     $args = array(
+//         'labels' => $labels,
+//         'public' => true,
+//         'publicly_queryable' => true,
+//         'show_ui' => true,
+//         'show_in_menu' => true,
+//         'query_var' => true,
+//         'rewrite' => array('slug' => _x('headline-news', 'koseli-headlineNews')),
+//         'capability_type' => 'post',
+//         'has_archive' => true,
+//         'hierarchical' => false,
+//         'menu_position' => 5,
+//         'supports' => array('title', 'thumbnail', 'editor', 'excerpt', 'comments', 'tags'),
+//         'taxonomies' => array('category', 'post_tag')
+//     );
+//     register_post_type('headlineNews', $args);
+// }
 //add_action( 'init', 'samachar' );
 /**********************************************************	headline-news************************************************************/
 // function 	headlineNews() {
