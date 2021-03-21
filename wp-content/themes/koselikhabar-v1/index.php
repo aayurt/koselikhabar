@@ -33,17 +33,19 @@ get_template_part('template-part/content-headline-news', get_post_format());
 <!--Latest News End-->
 
 <!-- Below Latest News Ad starts  -->
-<section class="below-latest-news">
+<!-- <section class="below-latest-news">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="below-latest-news-ad">
-                    <?php the_ad(74); ?>
+                    <?php
+                    // the_ad(74);
+                    ?>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- Below Latest News Ad end   -->
 <!--Main News Start-->
 
