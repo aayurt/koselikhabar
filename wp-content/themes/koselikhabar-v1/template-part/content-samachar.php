@@ -133,7 +133,7 @@ if (have_posts()) :
                 endif ?>
         <div class=" col-md-3">
             <div class="ad-block">
-                <?php the_ad_group(53) ?>
+                <?php the_ad_group(55) ?>
             </div>
         </div>
             </div>
