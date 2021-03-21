@@ -2,15 +2,18 @@
 get_header();
 ?>
 <!-- After nav Ad starts  -->
-<section class="below-header">
+<section class="below-samachar">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <?php the_ad(69); ?>
+                <div class="below-samachar-ad">
+                    <?php the_ad(69); ?>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
 <!-- After nav Ad end   -->
 
 <section class="archive-section">
