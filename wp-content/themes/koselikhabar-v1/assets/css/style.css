@@ -121,7 +121,8 @@ ul {
 .below-header .below-header-ad,
 .below-latest-news .below-latest-news-ad,
 .below-desh-news .below-desh-news-ad,
-.below-samachar .below-samachar-ad,news-adverisement {
+.below-samachar .below-samachar-ad,
+news-adverisement {
   padding: 2px;
   border: 1px solid #cccccc;
 }
@@ -322,10 +323,10 @@ ul {
 /*samachar ends*/
 
 /*desi news start*/
-.desh_news .container {
+/* .desh_news .container {
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
-}
+} */
 .desh_news .nav {
   float: right;
   border: none;
