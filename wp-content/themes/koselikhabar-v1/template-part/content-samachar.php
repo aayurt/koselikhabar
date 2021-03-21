@@ -92,12 +92,12 @@ if (have_posts()) :
                 <?php
                 global $wp_query;
                 $v = 1;
-                $deshNews = array(
+                $discussionnews = array(
                     'post_type' =>  'discussionnews',
                     'post_per_page' =>  4,
                     'order' =>  'desc',
                 );
-                query_posts($deshNews);
+                query_posts($discussionnews);
                 $count = $wp_query->found_posts;
                 if (have_posts()) :
                 ?>
