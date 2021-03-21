@@ -84,13 +84,14 @@ if (have_posts()) :
                     ?>
 
                 </div>
-                <div class="col-md-4">
-                    <div class="ad-block">
-                        <?php the_ad_group(34); ?>
+            </div>
+            <div class="col-md-4">
+                <div class="ad-block">
+                    <?php the_ad_group(34); ?>
 
-                    </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 
