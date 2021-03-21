@@ -485,7 +485,8 @@ news-adverisement {
 .single_news_detail .single_news_detail_ad {
   margin: 10px 0px;
 }
-.single_news_detail .single_news_detail_ad img {
+.single_news_detail .single_news_detail_ad img,
+.ad-block img {
   width: 100%;
 }
 .single_news_detail .single_page_ads .ad_lists img {
