@@ -93,7 +93,7 @@ if (have_posts()) :
                 global $wp_query;
                 $v = 1;
                 $deshNews = array(
-                    'post_type' =>  'samachar',
+                    'post_type' =>  'discussion-news',
                     'post_per_page' =>  4,
                     'order' =>  'desc',
                 );
