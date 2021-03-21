@@ -68,6 +68,7 @@ if ($tags->have_posts()) :
                 </div>
 
             </div>
+            <?php the_ad(408); ?>
         </div>
     </section>
 
