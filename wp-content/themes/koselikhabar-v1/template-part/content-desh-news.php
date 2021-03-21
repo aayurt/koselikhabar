@@ -176,5 +176,18 @@
 
             </div>
         </div>
+        <!-- Below samachar ad starts  -->
+        <section class="below-samachar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="below-samachar-ad">
+                            <?php the_ad(410); ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Below samachar Ad end   -->
     </div>
 </section>
