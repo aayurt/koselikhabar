@@ -2,7 +2,7 @@
 
 $bannerNews = array(
     //'post_type' =>  'entertainment',
-    'post_per_page' =>  4,
+    'posts_per_page' =>  4,
     'order' =>  'desc',
     'category_name' => 'headline-news',
 );
