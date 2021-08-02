@@ -34,8 +34,8 @@
   }
 
   .header .header-menu {
-    background-color: transparent;
-    position: absolute;
+    background-color: #d53a41;
+    /* position: absolute; */
     top: 20px;
   }
 
@@ -44,6 +44,27 @@
     font-size: 14px;
   }
 
+    
+    .navbar-nav {
+      display: -ms-flexbox;
+      /* flex: 2; */
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      /* flex-direction: column; */
+      /* justify-content: center; */
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+      text-align: center;
+      align-content: center;
+      align-items: center;
+      /* flex: 0 0 50%; */
+      flex-wrap: wrap;
+      /* max-width: 50%; */
+  }
+    
+  
   .header .header-menu .navbar-light .navbar-toggler {
     background: #d53a41;
     color: #fff;
