@@ -22,18 +22,19 @@ ul.navbar-nav li {
 }
 /* sm */
 @media (min-width: 320px) {
-  ul.navbar-nav li {
-    padding: 0 0.5rem;
-    max-width: 110px;
-    min-width: 30px;
-  
-  }
+
 }
 /* md */
 @media (min-width: 672px) {
   .header .header-menu {
     background: linear-gradient(45deg, #3494e6 30%, #ec6ead 90%);
     opacity: 0.8;
+  }
+  ul.navbar-nav li {
+    padding: 0 0.5rem;
+    max-width: 110px;
+    min-width: 30px;
+  
   }
 
 }
