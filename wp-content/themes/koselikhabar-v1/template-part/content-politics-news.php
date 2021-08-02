@@ -4,7 +4,7 @@ $v = 1;
 $a = 1;
 $MainNews = array(
     //'post_type' =>  'samachar',
-    'posts_per_page' =>  5,
+    'posts_per_page' =>  8,
     'order' =>  'desc',
     'category_name' => 'politics-news',
 );
