@@ -46,10 +46,9 @@
 
     
     .navbar-nav {
-      display: -ms-flexbox;
       /* flex: 2; */
       width: 100%;
-      display: flex;
+      display: contents;
       justify-content: center;
       /* flex-direction: column; */
       /* justify-content: center; */
