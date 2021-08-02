@@ -6,7 +6,8 @@
     margin-top: 0;
   }
   .header .header-menu {
-    background: none;
+    background: linear-gradient(45deg, #3494e6 30%, #ec6ead 90%);
+    opacity: 0.8;
   }
 }
 /* sm */
