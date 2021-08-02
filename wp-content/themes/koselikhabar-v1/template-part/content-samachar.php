@@ -4,12 +4,12 @@ $v = 1;
 $a = 1;
 $discussionnews = array(
     'category_name' => 'discussion-news',
-    'post_per_page' =>  4,
+    'posts_per_page' =>  4,
     'order' =>  'desc',
 );
 $deshNews = array(
     'category_name' =>  'samachar',
-    'post_per_page' =>  4,
+    'posts_per_page' =>  4,
     'order' =>  'desc',
 );
 $samachar = new WP_Query($deshNews);
