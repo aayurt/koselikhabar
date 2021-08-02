@@ -16,7 +16,7 @@
 ul.navbar-nav li {
   padding: 0 1.5rem;
   max-width: 110px;
-  min-width: 85px;
+  min-width: 30px;
 
 }
 }
