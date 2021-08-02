@@ -3,7 +3,7 @@ global $wp_query;
 $v = 1;
 $deshNews = array(
     //'post_type' =>  'entertainment',
-    'post_per_page' =>  4,
+    'posts_per_page' =>  4,
     'order' =>  'desc',
     'category_name' => 'Bataworan',
 );
