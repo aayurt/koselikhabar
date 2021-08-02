@@ -9,6 +9,10 @@
     background: linear-gradient(45deg, #3494e6 30%, #ec6ead 90%);
     opacity: 0.8;
   }
+  .navbar-nav {
+    display: contents;
+   
+}
 }
 /* sm */
 @media (min-width: 320px) {
