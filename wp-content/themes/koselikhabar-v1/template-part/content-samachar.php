@@ -8,7 +8,7 @@ $discussionnews = array(
     'order' =>  'desc',
 );
 $deshNews = array(
-    'post_type' =>  'samachar',
+    'category_name' =>  'samachar',
     'post_per_page' =>  4,
     'order' =>  'desc',
 );
