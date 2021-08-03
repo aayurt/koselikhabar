@@ -35,7 +35,7 @@ if (have_posts()) : while (have_posts()) : the_post();
                     <li class="publish_time"><i class="fa fa-clock-o"></i><?php echo get_the_date() ?></li>
                     <li class="social_share">
 
-                        <div class="fb-share-button" data-href="<?php the_permalink(); ?>" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink() ?>" class="fb-xfbml-parse-ignore">Share</a></div>
+                        <div class="fb-share-button" data-href="<?php the_permalink(); ?>" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink() ?>" class="fb-xfbml-parse-ignore">Share</a></div>
                     </li>
                 </ul>
             </div>
