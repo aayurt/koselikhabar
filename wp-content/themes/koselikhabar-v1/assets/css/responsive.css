@@ -225,7 +225,7 @@
 }
 
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 599px){
   .top-head .main-logo {
     display: flex;
     justify-content: center;
