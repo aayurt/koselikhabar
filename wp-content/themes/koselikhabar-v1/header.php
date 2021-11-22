@@ -83,8 +83,8 @@
                     
                     </div>
                     <!-- offset-md-1  -->
-                    <div class="col-md-3">
-                        <div class="header-ad flexCenter">
+                    <div class="col-md-3 flexCenter">
+                        <div class="header-ad ">
                             <?php the_ad(407); ?>
 
                         </div>
