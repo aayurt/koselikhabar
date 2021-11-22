@@ -27,12 +27,7 @@
     font-size: 14px;
   }
 
-  .header .header-ad img {
-    width: 100%;
-    height: 40px;
-    object-fit: cover;
-    display:none;
-  }
+
 
   .header .header-menu {
     background-color: #d53a41;
@@ -240,4 +235,14 @@
     height: 40px;
     object-fit: cover;
   } */
+}
+
+
+@media only screen and (max-width: 700px){
+  .header .header-ad img {
+    width: 100%;
+    height: 40px;
+    object-fit: cover;
+    display:none;
+  }
 }
