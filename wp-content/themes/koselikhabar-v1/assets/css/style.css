@@ -58,7 +58,12 @@ ul {
 .header .top-head {
   margin: 10px 0px 10px 0px;
 }
-
+.flexCenter{
+  display: flex;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+}
 .header .header-date {
   text-align: center;
   font-size: 12px;
