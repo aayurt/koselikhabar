@@ -223,3 +223,15 @@
   }
   /*archive page end*/
 }
+
+
+@media only screen and (max-width: 500px){
+  .top-head .main-logo {
+    display: flex;
+    justify-content: center;
+  }
+  .top-head .main-logo img {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
