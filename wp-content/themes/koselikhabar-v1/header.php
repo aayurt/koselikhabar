@@ -83,12 +83,12 @@
                     
                     </div>
                     <!-- offset-md-1  -->
-                    <!-- <div class="col-md-3">
+                    <div class="col-md-3">
                         <div class="header-ad">
                             <?php the_ad(407); ?>
 
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </section>
