@@ -79,7 +79,10 @@
                             <?php echo ndu_today_date(); ?>
                         </div>
                     </div>
-                    <div class="offset-md-1 col-md-8">
+                    <div class="col-md-6">
+                    
+                    </div>
+                    <div class="offset-md-1 col-md-3">
                         <div class="header-ad">
                             <?php the_ad(407); ?>
 
