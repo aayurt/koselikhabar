@@ -29,7 +29,7 @@
 
   .header .header-ad img {
     width: 100%;
-    height: 60px;
+    height: 40px;
     object-fit: cover;
   }
 
@@ -236,7 +236,7 @@
   }
   .header .header-ad img {
     width: 100%;
-    height: 60px;
+    height: 40px;
     object-fit: cover;
   }
 }
