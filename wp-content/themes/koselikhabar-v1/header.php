@@ -61,7 +61,7 @@
 <body>
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="y618bWX3"></script>
-    <header class="header">
+    <header class="header topLogo">
         <!--Top Header Start    -->
         <section class="top-head">
             <div class="container">
@@ -92,6 +92,10 @@
                 </div>
             </div>
         </section>
+    </header>
+
+    <header class="header">
+
         <!--Top Header End    -->
         <!-- Menu Start  -->
         <section class="header-menu">
