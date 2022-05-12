@@ -23,7 +23,7 @@
                             foreach ($cats as $key => $cat) {
                             ?>
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link <?php echo ($key == 0 ? 'active' : '') ?>" id="<?php echo 'pradesh_' . $cat->category_nicename ?>-tab" data-toggle="tab" href="#<?php echo 'pradesh_' . $cat->category_nicename ?>" role="tab" aria-controls="<?php echo 'pradesh_' . $cat->category_nicename ?>" aria-selected="true">
+                                    <a class="nav-link <?php echo ($key == 0 ? 'active' : '') ?>" id="<?php echo 'pradesh_' . $cat->slug ?>-tab" data-toggle="tab" href="#<?php echo 'pradesh_' . $cat->category_nicename ?>" role="tab" aria-controls="<?php echo 'pradesh_' . $cat->category_nicename ?>" aria-selected="true">
                                         <?php echo $cat->name; ?>
                                     </a>
                                 </li>
@@ -38,29 +38,31 @@
                 <div class="row">
 
 
-                    <div class="tab-content" id="pradeshContent">
+                    <div class="tab-content" id="pradeshTabContent">
                         <?php
 
                         foreach ($cats as $key => $category) {
                             global $wp_query;
-                            $v = 1;
+                            $post_count = 1;
                             $deshPradeshNews = array(
                                 'post_per_page' =>  5,
                                 'order' =>  'desc',
-                                'category_nicename' => $category->category_nicename,
+                                'category_name' => $category->slug
                             );
+
+
                             query_posts($deshPradeshNews);
                             $count = $wp_query->found_posts;
-                            print_r('count' . $count);
-                            print_r('key' . $key);
+
                             if (have_posts()) : ?>
-                                <div id="<?php echo 'pradesh_' . $category->category_nicename ?>" role="tabpanel" aria-labelledby="<?php echo 'pradesh_' . $category->category_nicename ?>-tab">
-                                    <div class="tab-pane tab-display <?php echo ($key == 0 ? 'active' : '') ?> row">
+                                <div class="test <?php echo $category->slug == 1 ? 'active' : '' ?>" id="<?php echo 'pradesh_' . $category->slug ?>" role="tabpanel" aria-labelledby="<?php echo 'pradesh_' . $category->slug ?>-tab">
+                                    <div class="tab-pane new-tab-display row">
                                         <?php
                                         while (have_posts()) : the_post(); ?>
+
                                             <?php
-                                            if ($v == 1) { ?>
-                                                <div class="col-md-6 col-sm-12">
+                                            if ($post_count == 1) { ?>
+                                                <div class="col-lg-6 col-md-6 col-sm-12">
                                                     <div class="main_news">
                                                         <div class="featured_image">
                                                             <img src="<?php echo the_post_thumbnail_url('medium'); ?>" alt="...">
@@ -88,12 +90,12 @@
                                                     </div>
                                                 </div>
                                             <?php }
-                                            if ($v == 2) {
+                                            if ($post_count == 2) {
                                                 echo '<div class="col-md-6 col-sm-12">
                                                             <div class="main_side_news">
                                                                 <div class="row">';
                                             }
-                                            if ($v > 1) { ?>
+                                            if ($post_count > 1) { ?>
                                                 <div class="col-6">
                                                     <div class="featured_image">
                                                         <img src="<?php echo the_post_thumbnail_url('small'); ?>" alt="adfs" />
@@ -110,7 +112,7 @@
                                                     </div>
                                                 </div>
                                             <?php }
-                                            if (($v == 5 || $v == $count) && ($count > 1))
+                                            if (($post_count == 5 || $post_count == $count) && ($count > 1))
                                                 echo '</div>
                                                         </div>
                                                     </div>';
