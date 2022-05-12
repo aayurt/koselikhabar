@@ -21,11 +21,9 @@
                         <ul class="nav nav-tabs" id="pradeshTab" role="tablist">
                             <?php
                             foreach ($cats as $key => $cat) {
-
                             ?>
-
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link <?php echo ($key == 0 ? 'active' : '') ?>" id="<?php echo 'pradesh_' . $cat->term_id ?>-tab" data-toggle="tab" href="#<?php echo 'pradesh_' . $cat->term_id ?>" role="tab" aria-controls="<?php echo 'pradesh_' . $cat->term_id ?>" aria-selected="true">
+                                    <a class="nav-link <?php echo ($key == 0 ? 'active' : '') ?>" id="<?php echo 'pradesh_' . $cat->category_nicename ?>-tab" data-toggle="tab" href="#<?php echo 'pradesh_' . $cat->category_nicename ?>" role="tab" aria-controls="<?php echo 'pradesh_' . $cat->category_nicename ?>" aria-selected="true">
                                         <?php echo $cat->name; ?>
                                     </a>
                                 </li>
@@ -42,21 +40,22 @@
 
                     <div class="tab-content" id="pradeshContent">
                         <?php
-                        foreach ($cats as $key => $category) {
 
+                        foreach ($cats as $key => $category) {
                             global $wp_query;
                             $v = 1;
                             $deshPradeshNews = array(
                                 'post_per_page' =>  5,
                                 'order' =>  'desc',
-                                'category_name' => $category->slug,
+                                'category_nicename' => $category->category_nicename,
                             );
                             query_posts($deshPradeshNews);
                             $count = $wp_query->found_posts;
-
+                            print_r('count' . $count);
+                            print_r('key' . $key);
                             if (have_posts()) : ?>
-                                <div class="tab-pane fade <?php echo ($key == 0 ? 'show active' : '') ?>" id="<?php echo 'pradesh_' . $category->term_id ?>" role="tabpanel" aria-labelledby="<?php echo 'pradesh_' . $category->term_id ?>-tab">
-                                    <div class="row">
+                                <div id="<?php echo 'pradesh_' . $category->category_nicename ?>" role="tabpanel" aria-labelledby="<?php echo 'pradesh_' . $category->category_nicename ?>-tab">
+                                    <div class="tab-pane tab-display <?php echo ($key == 0 ? 'active' : '') ?> row">
                                         <?php
                                         while (have_posts()) : the_post(); ?>
                                             <?php
@@ -111,7 +110,6 @@
                                                     </div>
                                                 </div>
                                             <?php }
-
                                             if (($v == 5 || $v == $count) && ($count > 1))
                                                 echo '</div>
                                                         </div>

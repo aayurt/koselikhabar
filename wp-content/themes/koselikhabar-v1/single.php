@@ -33,9 +33,13 @@ if (have_posts()) : while (have_posts()) : the_post();
                         <?php //the_author()
                         ?></li>
                     <li class="publish_time"><i class="fa fa-clock-o"></i><?php echo get_the_date() ?></li>
+
                     <li class="social_share">
 
-                        <div class="fb-share-button" data-href="<?php the_permalink(); ?>" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink() ?>" class="fb-xfbml-parse-ignore">Share</a></div>
+                        <div class="fb-share-button" data-href="<?php the_permalink(); ?>" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink() ?>" class="fb-xfbml-parse-ignore">Share</a></div>
+                    </li>
+                    <li class="social_share">
+                        <div class="fb-like" data-href="https://www.facebook.com/KoseliKhabar-108962171274376" data-width="" data-layout="button" data-action="like" data-size="large" data-share="false"></div>
                     </li>
                 </ul>
             </div>

@@ -684,3 +684,9 @@ news-adverisement {
   font-size: 16px;
   color: #000;
 }
+.tab-display{
+  display: none;
+}
+.tab-display.active{
+  display: block;
+}
