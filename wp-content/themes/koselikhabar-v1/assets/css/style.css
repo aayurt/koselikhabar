@@ -684,3 +684,20 @@ news-adverisement {
   font-size: 16px;
   color: #000;
 }
+
+.new-tab-display{
+  display: none;
+}
+.active .new-tab-display {
+  display: flex;
+
+}
+
+
+.tab-display{
+  display: none;
+}
+.tab-display.active{
+  display: block;
+}
+

@@ -18,13 +18,16 @@
  *
  * @package WordPress
  */
+define('FS_METHOD', 'direct');
+
+
 
 // ** MySQL settings - You can get this info from your web host ** //
 if ($_SERVER['HTTP_HOST'] == "localhost" || $_SERVER['HTTP_HOST'] == "127.0.0.1") {
     define('DB_HOST', '127.0.0.1');
 
     /** The name of the database for WordPress */
-    define('DB_NAME', 'koselikhabar1');
+    define('DB_NAME', 'koselikhabar');
 
     /** MySQL database username */
     define('DB_USER', 'root');
@@ -92,7 +95,7 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy publishing. */
 
