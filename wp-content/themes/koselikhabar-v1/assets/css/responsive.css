@@ -144,7 +144,7 @@
   }
 
   .samachar .main_news .news_desc {
-    font-size: 16px;
+    font-size: 26px;
     line-height: 1.8;
     text-align: justify;
     padding: 10px;
@@ -181,7 +181,8 @@
   }
 
   .single_news_head .news_title {
-    font-size: 22px;
+    font-size: 46px;
+    font-weight: bold;
   }
 
   .between_post_ad_list {
