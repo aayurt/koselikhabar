@@ -40,14 +40,14 @@
                         </div>
                         <div class="footerRow">
                             <span>निर्देशक:</span>
-                            <span class="footerContent">सुनाइल थापा</span>
-                        </div>
-                        <div class="footerRow">
-                            <span>सह-निर्देशक:</span>
                             <span class="footerContent">गणेश शाह</span>
                         </div>
+                        <!-- <div class="footerRow">
+                            <span>सह-निर्देशक:</span>
+                            <span class="footerContent">गणेश शाह</span>
+                        </div> -->
                         <div class="footerRow">
-                            <span>बजार ब्याबस्थापक:</span>
+                            <span>मार्केटिङ:</span>
                             <span class="footerContent">जित बहादुर मल्ल(राम)</span>
                         </div>
 
