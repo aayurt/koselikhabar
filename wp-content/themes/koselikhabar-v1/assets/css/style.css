@@ -466,6 +466,7 @@ news-adverisement {
 /*single page start*/
 .single_news_head .news_title {
   font-size: 48px;
+  font-weight: bold;
 }
 
 .single_news_head .news_detail {
