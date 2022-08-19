@@ -79,7 +79,8 @@ ul {
 
 .header .header-menu .navbar ul .nav-item a {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 500;
   text-shadow: 2px 0px grey;
 }
 
