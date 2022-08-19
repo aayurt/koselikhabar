@@ -87,7 +87,7 @@ ul {
   padding: 2px 0px;
 }
 
-.header .header-menu .navbar ul .nav-item a:hover {
+.header .header-menu .navbar ul .nav-item:hover {
   background-color: #3377ff;
   opacity: 0.9;
 }
