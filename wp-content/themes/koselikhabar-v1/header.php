@@ -83,13 +83,14 @@
 
                     </div>
                     <!-- offset-md-1  -->
-                    <div class="col-md-3 flexCenter">
-                        <div class="header-ad ">
-                            <?php
-                            // the_ad(407); 
-                            ?>
-                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FKoseliKhabar-108962171274376&tabs&width=340&height=70&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=599136463587625" width="340" height="70" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-
+                    <div class="col-md-3 flexCenter justify-content-center ">
+                        <div class="flex fb-animate-rotate">
+                            <div class=" fb-animate">
+                                <?php
+                                // the_ad(407); 
+                                ?>
+                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FKoseliKhabar-108962171274376&tabs&width=340&height=70&small_header=true&adapt_container_width=false&hide_cover=true&show_facepile=false&appId=599136463587625" width="340" height="70" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>

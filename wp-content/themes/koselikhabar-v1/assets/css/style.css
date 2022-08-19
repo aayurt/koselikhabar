@@ -704,3 +704,62 @@ news-adverisement {
 .news_desc {
   font-size: 26px;
 }
+.fb-animate-rotate {
+  animation-name: rotateAnimation;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.fb-animate {
+  position: relative;
+  display: flex;
+  background: linear-gradient(0deg, #000, #272727);
+}
+.fb-animate:before,
+.fb-animate:after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(
+    45deg,
+    #fb0094,
+    #0000ff,
+    #00ff00,
+    #ffff00,
+    #ff0000,
+    #fb0094,
+    #0000ff,
+    #00ff00,
+    #ffff00,
+    #ff0000
+  );
+  background-size: 200%;
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  z-index: -1;
+  animation: steam 20s linear infinite;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(-1.5deg);
+  }
+  to {
+    transform: rotate(1.5deg);
+  }
+}
+@keyframes steam {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.fb-animate::after {
+  filter: blur(50px);
+}
